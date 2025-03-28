@@ -7,7 +7,7 @@ import Avis from "./contents/avis/Avis";
 
 function App() {
   return (
-    <body class="flex h-screen flex-col bg-gray-100">
+    <body class="flex min-h-screen flex-col bg-gray-100">
       <Header />
       <main class="h-full  wh ">
         <Logements />

@@ -16,7 +16,7 @@ export default function Avis() {
     { id: 3, name: "Emma D.", review: "Excellente expérience, on reviendra." },
   ];
   return (
-    <section class=" p-5 shadow-xl bg-gray-50 ">
+    <section class=" p-5 shadow-xl bg-gray-50  ">
       <h3 class="text-2xl font-medium mb-4">Avis Clients</h3>
       <article class="flex  flex-auto content-start items-center gap-4 max-md:flex-col justify-center ">
         {reviews.map((review) => (
