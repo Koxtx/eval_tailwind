@@ -7,9 +7,9 @@ import Avis from "./contents/avis/Avis";
 
 function App() {
   return (
-    <body class="flex min-h-screen flex-col bg-gray-100 ">
+    <body class="flex  min-h-screen flex-col bg-gray-100 ">
       <Header />
-      <main class="h-full  wh ">
+      <main class="h-full  wh mb-10 ">
         <Logements />
         <Avis />
       </main>

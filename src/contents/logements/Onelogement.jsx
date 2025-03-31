@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function Onelogement({ listing }) {
+  // card logement
   return (
     <div class="flex-col  p-5 rounded-4xl shadow-xl w-65 min-w-65 hover:cursor-pointer  bg-gray-50 ">
       <img

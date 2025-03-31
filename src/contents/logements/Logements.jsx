@@ -47,7 +47,8 @@ export default function Logements() {
   return (
     <section class="p-5 ">
       <h2 class="text-2xl font-medium mb-4">Logements disponibles</h2>
-      <article class="flex  flex-auto content-start items-center gap-4  max-2xl:overflow-auto  ">
+      <article class="flex  flex-auto content-start items-center gap-4  max-2xl:overflow-auto max-2xl:p-5 ">
+        {/* afficher tous les logements */}
         {listings.map((listing) => (
           <Onelogement listing={listing} key={listing.id} />
         ))}

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer class="flex flex-auto gap-6 justify-center items-center p-2   h-20 bg-indigo-950 text-amber-50  max-md:flex-col max-md:items-start max-md:p-8">
+    <footer class="flex flex-auto gap-6 justify-center items-center p-2   h-20 bg-indigo-950 text-amber-50  max-md:flex-col max-md:items-start max-md:p-8 max-md:h-auto">
       <nav class=" flex flex-col justify-start items-start w-65  gap-2-y ">
         <h3 class="text-xl font-medium mb-4">À propos</h3>
         <p class="text-wrap">

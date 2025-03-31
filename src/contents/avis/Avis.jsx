@@ -19,6 +19,7 @@ export default function Avis() {
     <section class=" p-5 shadow-xl bg-gray-50 mb-8 ">
       <h3 class="text-2xl font-medium mb-4">Avis Clients</h3>
       <article class="flex  flex-auto content-start items-center gap-4 max-md:flex-col justify-center ">
+        {/* afficher tous les avis */}
         {reviews.map((review) => (
           <OneAvi review={review} key={review.id} />
         ))}
